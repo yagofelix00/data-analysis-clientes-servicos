@@ -33,18 +33,29 @@ O projeto realiza os seguintes cálculos e análises:
 - [Pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [OpenPyXL](https://openpyxl.readthedocs.io/)
+- [Excel](https://www.microsoft.com/pt-br/microsoft-365/excel)
 
 ---
 
 ## 📂 Estrutura do Projeto
 
 📦 projeto-pandas
-├── 📄 projeto.ipynb # Notebook principal com análises e gráficos
-├── 📄 CadastroFuncionarios.csv → Base de dados dos funcionários  
-├── 📄 CadastroClientes.csv → Base de dados dos clientes 
-├── 📄 BaseServiçosPrestados.xlsx → Base de serviços prestados  
-├── 📄 requirements.txt # Dependências do projeto
-└── 📄 README.md # Documentação do projeto
+- 📄 projeto.ipynb # Notebook principal com análises e gráficos
+- 📄 CadastroFuncionarios.csv → Base de dados dos funcionários  
+- 📄 CadastroClientes.csv → Base de dados dos clientes 
+- 📄 BaseServiçosPrestados.xlsx → Base de serviços prestados  
+- 📄 requirements.txt # Dependências do projeto
+- 📄 README.md # Documentação do projeto
+
+---
+
+## 📊 Gráficos do Projeto
+
+### Contratos por Área
+![Contratos por Área](imagens/contratos_por_area.png)
+
+### Funcionários por Área
+![Funcionários por Área](imagens/funcionarios_por_area.png)
 
 ---
 
@@ -61,23 +72,32 @@ O projeto realiza os seguintes cálculos e análises:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/yagofelix00/projeto-pandas.git
+   git clone https://github.com/yagofelix00/data-analysis-clientes-servicos.git
 
    
-   Acesse a pasta do projeto:
-   cd projeto-pandas
+2. Acesse a pasta do projeto:
+   cd data-analysis-clientes-servicos
 
-   Instale as dependências:
+3. Instale as dependências:
    pip install -r requirements.txt
 
-   Execute o notebook:
+4. Execute o notebook:
    jupyter notebook projeto.ipynb
    Se você usa o VS Code, pode abrir o arquivo .ipynb direto no editor.
 
+5. Certifique-se de que os arquivos de dados estão na mesma pasta do notebook:
+
+   - CadastroClientes.csv
+
+   - CadastroFuncionarios.csv
+
+   - BaseServicosPrestados.xlsx
 
 
 📌 Observações
 
+- Certifique-se de ter o Python e o Jupyter Notebook instalados.
+- Todos os arquivos de dados devem estar na mesma pasta que o notebook para que o código funcione corretamente.
 - Os dados utilizados são fictícios, apenas para fins de estudo.
 - Este projeto foi desenvolvido para praticar manipulação de dados, análise exploratória e visualização com Python.
 
@@ -85,4 +105,4 @@ O projeto realiza os seguintes cálculos e análises:
 Yago Félix
 
 💼 Desenvolvedor Python Júnior (Back-end / Full Stack)
-📂 Mais projetos em GitHub
+📂 Mais projetos em GitHub: [https://github.com/yagofelix00](https://github.com/yagofelix00)
