@@ -40,12 +40,12 @@ O projeto realiza os seguintes cálculos e análises:
 ## 📂 Estrutura do Projeto
 
 📦 projeto-pandas
-- 📄 projeto.ipynb # Notebook principal com análises e gráficos
+- 📄 projeto.ipynb → Notebook principal com análises e gráficos
 - 📄 CadastroFuncionarios.csv → Base de dados dos funcionários  
 - 📄 CadastroClientes.csv → Base de dados dos clientes 
 - 📄 BaseServiçosPrestados.xlsx → Base de serviços prestados  
-- 📄 requirements.txt # Dependências do projeto
-- 📄 README.md # Documentação do projeto
+- 📄 requirements.txt → Dependências do projeto
+- 📄 README.md → Documentação do projeto
 
 ---
 
